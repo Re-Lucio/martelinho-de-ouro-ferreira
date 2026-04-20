@@ -10,54 +10,15 @@ body {
   background: #fff;
 }
 
-/* HEADER */
-header {
-  background: #1a1a1a;
-  padding: 16px 32px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.header-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.logo-text {
-  color: #f5c518;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-nav a {
-  color: #ccc;
-  text-decoration: none;
-  margin-left: 24px;
-  font-size: 0.95rem;
-  transition: color 0.2s;
-}
-
-nav a:hover {
-  color: #f5c518;
-}
 
 /* HERO */
 .hero {
   background: url('fotos/logo5.png') center center / cover no-repeat, #1a1a1a;
-  color: #fff;
-  text-align: center;
-  padding: 80px 24px;
-  position: relative;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 1;
+  min-height: 320px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 32px;
 }
 
 .hero-nav {
@@ -70,7 +31,7 @@ nav a:hover {
 .hero-nav a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
