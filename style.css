@@ -14,7 +14,7 @@ body {
 /* HERO */
 .hero {
   background: url('fotos/logo5.png') center center / cover no-repeat, #1a1a1a;
-  min-height: 320px;
+  min-height: 520px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
