@@ -27,14 +27,11 @@ header {
   justify-content: space-between;
 }
 
-.logo {
+.logo-text {
+  color: #f5c518;
+  font-size: 1.2rem;
+  font-weight: bold;
   text-decoration: none;
-}
-
-.logo img {
-  height: 48px;
-  width: auto;
-  display: block;
 }
 
 nav a {
@@ -54,15 +51,8 @@ nav a:hover {
   background: url('fotos/logo5.png') center center / cover no-repeat, #1a1a1a;
   color: #fff;
   text-align: center;
-  padding: 120px 24px;
+  padding: 80px 24px;
   position: relative;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(10, 10, 20, 0.65);
 }
 
 .hero-content {
@@ -70,16 +60,25 @@ nav a:hover {
   z-index: 1;
 }
 
-.hero h2 {
-  font-size: 2.8rem;
-  color: #f5c518;
-  margin-bottom: 16px;
+.hero-nav {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
 }
 
-.hero p {
-  font-size: 1.15rem;
-  color: #ccc;
-  margin-bottom: 36px;
+.hero-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.hero-nav a:hover {
+  color: #f5c518;
 }
 
 /* BOTÕES */
