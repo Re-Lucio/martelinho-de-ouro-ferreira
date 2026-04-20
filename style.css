@@ -30,6 +30,8 @@ header {
 .logo {
   color: #f5c518;
   font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav a {
